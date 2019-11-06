@@ -1,0 +1,7 @@
+3.1
+    les fonctions de base doivent au moins etre en protected pour pouvor etre redéfini dans les classes héritées. 
+    Les fonctions qui doivent pouvoir etre redéfinies.
+
+3.2
+    Les contructeurs et destructeur devront etre redéfinies.
+    
