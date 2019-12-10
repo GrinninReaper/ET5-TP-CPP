@@ -1,0 +1,6 @@
+Question2.3
+	Une unordered_map peut avoir une clé associée à plusieurs. 
+	Ceci n'est pas possible avec une map habituelle. 
+	De par le fait qu'on étudie ici des anagrammes, 
+	il est nécessaire de pouvoir associer plusieurs valeurs à une seule clé.
+    

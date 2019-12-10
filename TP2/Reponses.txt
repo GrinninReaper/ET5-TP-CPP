@@ -1,0 +1,32 @@
+//Date:12/11/19
+//Author : Anandou CANDASSAMY
+
+-------------------------Exercice 1-------------------------
+Constructeur par défaut
+Constructeur par copie
+0x7fff5720d112: constructed from 0x7fff5720d111
+Destructeur
+Constructeur par copie
+0x7fff5720d113: constructed from 0x7fff5720d111
+Constructeur par défaut
+Constructeur par défaut
+Constructeur par défaut
+Assignation par copie
+0x7fff5720d115: constructed from 0x7fff5720d0e7
+Destructeur
+Constructeur par défaut
+Constructeur par copie
+0x7fff5720d117: constructed from 0x7fff5720d111
+Assignation par copie
+0x7fff5720d116: constructed from 0x7fff5720d111
+Destructeur
+Destructeur
+Destructeur
+Destructeur
+Destructeur
+Destructeur
+
+
+-------------------------Exercice 2-------------------------
+
+

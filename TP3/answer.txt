@@ -1,0 +1,29 @@
+//Author : Anandou CANDASSAMY
+//Date: 26/11/19
+
+//EX1
+    //1.1
+En crééant un unique_ptr on ait qu'il existe un seul propiétaire du pointeur. 
+Contrairement à un pointeur pur, il ne sera pas nécessaire faire la gestion de mémoire du pointeur. 
+
+    //1.2
+
+Q1: Le unique_ptr sera supprimé automatiquement en sortant de son scope. 
+    Donc il n'est pas nécessaire d'ajouter de destructeur. 
+Q2: Le constructeur renvoie une erreur ca le dictionnaire de la classe ne contient pas la clé "toto". 
+    L'operateur [] renvoie donc un nullptr, donc on ne peut pas appliquer la fonction build dessus.
+    Il faut donc ajouter une vérification de la présence de la clé entrée en argument.
+    On utilisera la méthode count pour ce faire. 
+Q3: 
+
+
+//EX2
+    //2.1
+En effet, les valeurs ne sont pas initialisées donc le code accède à des espaces mémoires alétoires. 
+
+    //2.2
+Q1: La taille demandée est trop grande. La pile ne peu que avoir 2Mo de données.
+    Le code demande une affectation deux fois plus grande.
+Q2: Le constructeur par défaut ne convient pas, on obtient une erreur de segmentation.
+    Le construeur ne permet pas de créer le unique_ptr qui contient le small_array.
+
